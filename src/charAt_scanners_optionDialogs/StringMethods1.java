@@ -35,7 +35,8 @@ public class StringMethods1 {
 		System.out.println(cha);
 		for (int i = 0; i < something.length(); i++) {
 			char anything = something.charAt(i);
-			if (anything.equals(cha)) {
+			String anythingString = anything+"";
+			if (anythingString.equals(cha)) {
 				indx = i;
 				break;
 			}
